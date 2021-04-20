@@ -96,10 +96,8 @@ button:hover, .txtbox::selection {
     .container .btn-con{
         margin-top: 20px;
         justify-content: space-evenly;
-    }    
-}
-@media (max-width:600px)
-{
-    
-
+    }
+    .btnclr,.btnply{
+        min-width: 170px;    
+    }
 }
