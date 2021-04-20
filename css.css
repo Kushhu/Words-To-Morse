@@ -55,11 +55,9 @@ button:hover, .txtbox:hover {
 }
 .container .btnply{
     flex-basis: 40%;
-    z-index:1;
 }
 .container .btnclr{
     flex-basis: 40%;
-    z-index:1;
 }
 
 .di{
@@ -102,7 +100,10 @@ button:hover, .txtbox:hover {
         margin-top: 20px;
         justify-content: space-evenly;
     }
-     .btnply{
+}
+
+@media (max-width:600px){
+    .btnply{
         min-width: 190px;    
     }
     .btnclr{
