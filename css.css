@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+body{
+    background-color: #5885AF;
+}
+
+button{
+   
+    box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    color: gray;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+    transition: color 0.4s ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+button:hover, .txtbox::selection {
+    color: black;
+}
+.container{
+    width: 90vw;
+    margin: 10vh auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn-con{
+    height: 50px;
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .txtbox{
+    height: 50px;
+    color: black;
+    padding:5px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.1);
+    flex-basis:60%;
+
+}
+.container .btnply{
+    flex-basis: 40%;
+}
+.container .btnclr{
+    flex-basis: 40%;
+}
+
+.di{
+    width: 10px;
+    height: 5px;
+    float: left;
+    margin: 2px;
+    background-color: black;
+}
+.da{
+    float: left;
+    margin: 2px;
+    width: 20px;
+    height: 5px;
+    background-color: black;
+}
+.word-container{
+    margin-right: 20px;
+    height: 20px;
+}
+
+.display{
+   width: 90vw;
+   height: 100px;
+   margin: 100px auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+@media (max-width:1200px)
+{
+    .container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container .txtbox{
+        flex-basis: 50px;
+    }
+    .container .btn-con{
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }    
+}
+@media (max-width:600px)
+{
+    
+
+}
