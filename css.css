@@ -100,8 +100,10 @@ button:hover, .txtbox:hover {
         margin-top: 20px;
         justify-content: space-evenly;
     }
-    .btnclr,.btnply{
-        min-width: 170px;    
+     .btnply{
+        min-width: 190px;    
     }
-    
+    .btnclr{
+        max-width: 130px;
+    }
 }
