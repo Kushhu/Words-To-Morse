@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Visual Studio Code.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Morse</title>
+</head>
+<body id=body>
+    <div class="container">
+        <input type="text" placeholder="Type Here" onfocus="clrmorse()" class="txtbox" id="txtbox" value=""></input>
+            <div class="btn-con">
+                <button class="btnply"  onclick="play()"> ConvertNPlay </button>
+                <button class="btnclr" onclick="clr()"> Clear </button>
+            </div>
+    </div>
+        <div class="display" id="morse"></div>
+        <div class="audio" id="audio"></div>
+    <script src="js.js"> </script>
+</body>
+</html>
