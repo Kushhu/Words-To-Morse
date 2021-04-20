@@ -159,4 +159,7 @@ function clr() {
         display.removeChild(display.firstChild);
     }
     document.getElementById('txtbox').value = '';
+    index = 0;
+    i = 0;
+    Time = 2;
 }
