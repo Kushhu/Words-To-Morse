@@ -163,3 +163,12 @@ function clr() {
     i = 0;
     Time = 2;
 }
+
+function clrmorse() {
+    while (display.firstChild) {
+        display.removeChild(display.firstChild);
+    }
+    index = 0;
+    i = 0;
+    Time = 2;
+}
